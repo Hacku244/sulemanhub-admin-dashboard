@@ -7,6 +7,9 @@ It comes with a sidebar, topbar, dark/light theme, multiple charts, advanced dat
 👉 🚀 Live Project
 
   https://sulemanhub.vercel.app/
+
+
+  
 ✨ Tech Stack
 
 ⚛️ React + Vite – fast, modern frontend setup
