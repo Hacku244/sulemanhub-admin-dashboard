@@ -108,10 +108,3 @@ Faq:
 This project is licensed under the [MIT License].
 
   
-
-
-
-
-  
-
-(Add screenshots or GIFs of your dashboard UI here!
