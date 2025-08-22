@@ -103,6 +103,10 @@ Faq:
 <img width="1350" height="595" alt="Screenshot 2025-08-23 013922" src="https://github.com/user-attachments/assets/982aaf1b-c519-4508-9c8a-f8e90bc978e3" />
 
 
+## 📜 License
+
+This project is licensed under the [MIT License].
+
   
 
 
