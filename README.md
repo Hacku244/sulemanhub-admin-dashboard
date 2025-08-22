@@ -3,10 +3,10 @@
 A modern, fully responsive Admin Dashboard built with React, Vite, Material UI, Nivo Charts, FullCalendar, and Framer Motion.
 It comes with a sidebar, topbar, dark/light theme, multiple charts, advanced data tables, and calendar features for managing events.
 
-🌐 Live Demo
 
 👉 🚀 Live Project
 
+  https://sulemanhub.vercel.app/
 ✨ Tech Stack
 
 ⚛️ React + Vite – fast, modern frontend setup
