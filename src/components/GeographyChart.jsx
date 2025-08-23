@@ -11,7 +11,7 @@ const GeographyChart = ({ isDashboard = false }) => {
   const containerRef = useRef(null);
   const [size, setSize] = useState({ width: 400, height: 300 });
 
-  // ✅ ResizeObserver to auto update size
+  //  ResizeObserver to auto update size
   useEffect(() => {
     if (!containerRef.current) return;
     const observer = new ResizeObserver(([entry]) => {
@@ -24,7 +24,7 @@ const GeographyChart = ({ isDashboard = false }) => {
     return () => observer.disconnect();
   }, []);
 
-  // ✅ auto scale calculation based on width
+  // auto scale calculation based on width
   const scale = isDashboard
     ? Math.max(40, size.width / 10) // dashboard → smaller scale
     : Math.max(120, size.width / 5); // full page → bigger scale
@@ -43,7 +43,7 @@ const GeographyChart = ({ isDashboard = false }) => {
         projectionTranslation={[0.5, 0.55]}
         borderWidth={1.5}
         borderColor="#ffffff"
-        colors="BuGn" // ✅ your requested color
+        colors="BuGn" // requested palette
         theme={{
           legends: { text: { fill: colors.grey[100] } },
           tooltip: {
