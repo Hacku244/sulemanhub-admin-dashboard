@@ -256,7 +256,7 @@ const Dashboard = () => {
   </Typography>
 
   {/* chart will auto fit */}
-  <Box sx={{ height: { xs: "250px", md: "210px" }, width: "100%" }}>
+  <Box sx={{ height: { xs: "250px", md: "160px" }, width: "100%" }}>
     <GeographyChart isDashboard={true} />
   </Box>
 </Box>
