@@ -31,8 +31,8 @@ import { purple } from "@mui/material/colors";
 /** Layout constants */
 const EXPANDED_WIDTH = 264;
 const COLLAPSED_WIDTH = 88;
-const MOBILE_EXPANDED_RATIO = 0.3;   // 30% of screen width
-const PHONE_EXPANDED_RATIO = 0.13;   // 13% of screen width
+const MOBILE_EXPANDED_RATIO = 0.4;   // 40% of screen width
+const PHONE_EXPANDED_RATIO = 0.3;   // 30% of screen width
 
 /** Spring motion */
 const SPRING = { type: "spring", stiffness: 230, damping: 40 };
