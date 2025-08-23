@@ -1,6 +1,4 @@
 
-
-
      
 import { useState, useEffect } from "react";
 import {
@@ -118,7 +116,7 @@ const Invoices = () => {
         </Typography>
       ),
     },
-  ].filter(Boolean); // ✅ remove false columns
+  ].filter(Boolean); //  remove false columns
 
   if (loading) return <p>Loading invoices...</p>;
   if (error) return <p>Error: {error}</p>;
