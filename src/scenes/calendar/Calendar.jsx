@@ -1,10 +1,4 @@
 
-    
-
-
-
-
-// ... (imports remain the same)
 import React, { useState, useRef } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
@@ -250,8 +244,8 @@ const Calendar = () => {
               selectable={true}
               selectMirror={true}
               dayMaxEvents={true}
-              select={handleDateClick}        // ✅ for drag select (desktop)
-              dateClick={handleDateClick}     // ✅ for single tap (mobile/tablet)
+              select={handleDateClick}        //  for drag select (desktop)
+              dateClick={handleDateClick}     //  for single tap (mobile/tablet)
               eventClick={handleEventClick}
               eventsSet={(events) => setCurrentEvents(events)}
               nowIndicator={true}
