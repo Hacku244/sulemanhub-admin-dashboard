@@ -241,7 +241,7 @@ const Dashboard = () => {
           </Box>
         </Box>
 
-        <Box
+        {/*   <Box
   gridColumn={{ xs: "span 12", md: "span 4" }}
   gridRow="span 2"
   backgroundColor={colors.primary[400]}
@@ -253,14 +253,34 @@ const Dashboard = () => {
     sx={{ marginBottom: "15px" }}
   >
     Geography Based Traffic
-  </Typography>
+  </Typography>*/}
 
   {/* chart will auto fit */}
-  <Box sx={{ height: { xs: "180px", md: "160px" }, width: "100%" }}>
+        {/*<Box sx={{ height: { xs: "180px", md: "160px" }, width: "100%" }}>
+    <GeographyChart isDashboard={true} />
+  </Box>
+</Box>*/}
+
+<Box
+  gridColumn={{ xs: "span 12", md: "span 4" }}
+  gridRow="span 2"
+  backgroundColor={colors.primary[400]}
+  padding={{ xs: "15px", md: "30px" }}   // smaller padding on mobile
+>
+  <Typography
+    variant="h6"   // smaller text on mobile
+    fontWeight="600"
+    sx={{ marginBottom: "10px" }}
+  >
+    Geography Based Traffic
+  </Typography>
+
+  <Box sx={{ width: "100%", height: { xs: "160px", md: "160px" } }}>
     <GeographyChart isDashboard={true} />
   </Box>
 </Box>
 
+        
       </Box>
     </Box>
   );
